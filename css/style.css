@@ -56,6 +56,12 @@ body{
 }
 /* PAGE - FORMULARIO */
 
+/* PAGE - DOWNLOAD */
+.download{
+    /* width: 50vw; */
+}
+/* PAGE - DOWNLOAD */
+
 /* MEDIA QUERIES */
 @media (max-width: 580px) {
     .precios{
