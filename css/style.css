@@ -32,13 +32,13 @@ body{
     background-size: cover;
 }
 /* PRECIOS */
-.precios__free{
+.precios__basic{
     background-color: rgb(114, 148, 243);
 }
-.precios__basic{
+.precios__pro{
     background-color: rgb(196, 190, 190);
 }
-.precios__premium{
+.precios__ultra{
     background-color: rgb(197, 177, 64);
 }
 /* PRECIOS */
@@ -56,22 +56,43 @@ body{
 }
 /* PAGE - FORMULARIO */
 
-/* PAGE - DOWNLOAD */
-.download{
-    /* width: 50vw; */
+/* PAGE - JUEGOS */
+.juegos-banner{
+    background-image: url(../multimedia/img/fortnite.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 700px;
 }
-/* PAGE - DOWNLOAD */
+/* section - catalogo */
+.catalogo__img{
+    object-fit: contain;
+}
+
+/* PAGE - JUEGOS */
 
 /* MEDIA QUERIES */
 @media (max-width: 580px) {
+    /* PAGINA - SUSCRIPCIONES */
     .precios{
         display: flex;
         flex-direction: column;
     }
-    .card{
+    .precios__card{
         margin: 10px;
     }
+    /* PAGINA - CONTACTANOS */
     .formulario__container{
         width: 100vw;
+    }
+    /* PAGINA DOWNLOAD */
+    .download{
+        display: flex;
+        flex-direction: column;
+    }
+    .download__android{
+        margin: 10px;
+    }
+    .download__all{
+        margin: 10px;
     }
 }
