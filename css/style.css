@@ -67,6 +67,18 @@ body{
 .catalogo__img{
     object-fit: contain;
 }
+.color-Basic{
+    background-color: rgb(114, 148, 243);
+    color: white;
+}
+.color-Pro{
+    background-color: rgb(196, 190, 190);
+    color: white;
+}
+.color-Ultra{
+    background-color: rgb(197, 177, 64);
+    color: white;
+}
 
 /* PAGE - JUEGOS */
 
