@@ -4,6 +4,7 @@
 }
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 /* HEADER */
 /* Navbar */
@@ -83,7 +84,7 @@ body{
 /* PAGE - JUEGOS */
 
 /* MEDIA QUERIES */
-@media (max-width: 580px) {
+@media (max-width: 576px) {
     /* PAGINA - SUSCRIPCIONES */
     .precios{
         display: flex;
